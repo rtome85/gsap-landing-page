@@ -30,6 +30,7 @@ const About = () => {
                 easel: 0.04
             }, '-=0.5')
 
+
     }, [])
 
     return (
