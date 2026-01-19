@@ -22,8 +22,8 @@ const Cocktails = () => {
       .from("#c-right-leaf", { x: 100, y: 100 });
 
     return () => {
-      parallaxTimeline.kill()
-    }
+      parallaxTimeline.kill();
+    };
   }, []);
 
   return (
